@@ -1,0 +1,22 @@
+## new branch
+git checkout -b <branch>
+
+## push new local branch to remote
+git push -u origin <branch>
+
+## delete local branch
+git branch -d <local-branch>
+
+
+## fetch from origin with deleted remote branches
+git fetch -p
+
+##
+git push origin --delete feature/login
+
+
+## add remote
+git remote add upstream https://xxx.git
+
+## to view git history schematic
+git log --all --decorate --oneline --graph
